@@ -1,13 +1,10 @@
 {
-  "name": "react-example",
+  "name": "study-spain",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "tsx server.ts",
-    "build": "echo 'Using pre-built dist'",
     "start": "node dist/server.cjs",
-    "lint": "tsc --noEmit"
+    "build": "echo done"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",
